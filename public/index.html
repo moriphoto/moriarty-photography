@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Moriarty Photography</title>
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <header class="bar">
+    <a class="brand" href="#" data-nav="work">
+      <span class="word">Moriarty</span>
+      <span>Photography</span>
+    </a>
+    <nav class="nav">
+      <button class="grid-btn" data-nav="grid" title="Grid" aria-label="Grid">
+        <i></i><i></i><i></i><i></i>
+      </button>
+      <a href="#" data-nav="about">About</a>
+      <a href="#" data-nav="contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="viewer">
+    <img class="hero" id="hero" alt="">
+    <button class="arrow prev" id="prev" aria-label="Previous">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M30 8 L14 24 L30 40"/></svg>
+    </button>
+    <button class="arrow next" id="next" aria-label="Next">
+      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8 L34 24 L18 40"/></svg>
+    </button>
+    <div class="caption">
+      <div class="kicker" id="kicker">Editorial</div>
+      <h1 id="title"></h1>
+      <p id="note"></p>
+    </div>
+    <div class="counter" id="counter"></div>
+  </section>
+
+  <section id="grid">
+    <div class="tiles" id="tiles"></div>
+  </section>
+
+  <section class="page" id="about">
+    <div class="page-inner">
+      <h1>About</h1>
+      <div class="rule"></div>
+      <p class="lead">Photographer and cinematographer. Fashion, editorial, campaigns, and motion.</p>
+      <p>Over 25 years in visual production. Still and motion camera systems, strobe and continuous lighting, editing and post-production.</p>
+      <p>Selected clients include Notion, Hero, Pull and Bear, Nike, Schuh, TOMS.</p>
+    </div>
+  </section>
+
+  <section class="page" id="contact">
+    <div class="page-inner">
+      <h1>Contact</h1>
+      <div class="rule"></div>
+      <p>Available for local projects and employment.</p>
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/site.js"></script>
+</body>
+</html>

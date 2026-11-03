@@ -1,0 +1,22 @@
+{
+  "pieces": [
+    {
+      "src": "fashion-lily-cole.jpg",
+      "title": "Lily Cole",
+      "note": "Fashion editorial.",
+      "kicker": "Fashion"
+    },
+    {
+      "src": "fashion-suki.jpg",
+      "title": "Suki Waterhouse",
+      "note": "Campaign still.",
+      "kicker": "Fashion"
+    },
+    {
+      "src": "commercial-pull-bear.jpg",
+      "title": "Pull and Bear",
+      "note": "LA campaign.",
+      "kicker": "Commercial"
+    }
+  ]
+}
